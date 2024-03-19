@@ -1,0 +1,6 @@
+PesoPayasos=int(112)
+PesoMuñecas=int(75)
+CantP=int(input("Digite la cantidad de payasos que desea llevar: "))
+CantM=int(input("Digite la cantidad de muñecas que desea llevar: "))
+PesoTotalVenta=(CantP*PesoPayasos)+(CantM*PesoMuñecas)
+print(PesoTotalVenta)

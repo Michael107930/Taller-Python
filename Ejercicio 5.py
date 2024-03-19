@@ -1,0 +1,6 @@
+a=float(input("Digite el valor de a con su respectivo signo: "))
+b=float(input("Digite el valor de b con su respectivo signo: "))
+c=float(input("Digite el valor de c con su respectivo signo: "))
+SolucionPositiva=((-b+(b**2-4*a*c)**0.5)/(2*a))
+SolucionNegativa=((-b-(b**2-4*a*c)**0.5)/(2*a))
+print(f"La soluciones de la ecuación {int(a)}x2 {int(b)}x {int(c)}=0 son: {SolucionPositiva} y {SolucionNegativa}")
